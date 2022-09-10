@@ -7,7 +7,7 @@
  *
  * return: 0
  */
-int main(void) /* entry point */
+int main(void) /* main.c */
 {
   /* prints output */
 puts("\"Programming is like building a multilingual puzzle");

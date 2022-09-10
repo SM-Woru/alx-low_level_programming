@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main.c
+ * main.c - entry function
  *
  * puts - prints string
  *
- * return: 0
+ * return: 0 - always return zero
  */
 int main(void)
 {

@@ -9,7 +9,8 @@
  */
 int main(void) /* entry point */
 {
-   puts("\"Programming is building like a multilingual puzzle");
-   
-   return (0);
+  /* prints output */
+puts("\"Programming is like building a multilingual puzzle");
+
+return (0);
 }

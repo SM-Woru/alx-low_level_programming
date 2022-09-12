@@ -10,14 +10,13 @@
  * if, else if, else - conditional statements
  */
 
+
 int main(void)
 {
   int n;
 
   srand(time(0));
-  n = rand()  - RAND_MAX / 2;
-
-  printf("%d", n);
+  n = rand() - RAND_MAX / 2;
   
   if (n > 0)
     {

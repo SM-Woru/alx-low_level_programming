@@ -5,31 +5,31 @@
 /**
  * main - entry point
  * srand - generates randomized number
- * x - variable holding generated number
+ * n - variable holding generated number
  * printf - prints output
  * if, else if, else - conditional statements
  */
 
 int main(void)
 {
-  int x;
+  int n;
 
   srand(time(0));
-  x = rand()  - RAND_MAX / 2;
+  n = rand()  - RAND_MAX / 2;
 
-  printf("%d \n", x);
-
-  if (x > 0)
+  printf("%d", n);
+  
+  if (n > 0)
     {
-      printf("The number is positive \n");
+      printf(" is positive \n");
     }
-  else if (x < 0)
+  else if (n < 0)
     {
-      printf("The number is negative \n");
+      printf(" is negative \n");
     }
   else
     {
-      printf("The number is zero \n");
+      printf(" is zero \n");
     }
   return 0;
 }

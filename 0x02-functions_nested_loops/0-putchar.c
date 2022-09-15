@@ -6,13 +6,14 @@
  * Return: Always 0 (Success)
  */
 int main(void)
+  
 {
-  char *ch = "Holberton";
+  char *c = "_putchar";
 
-  while (*ch)
+  while (*c)
     {
-      _putchar(*ch);
-      ch++;
+      _putchar(*c);
+      c++;
     }
   _putchar('\n');
 

@@ -1,21 +1,24 @@
-#include <stdio.h>
 #include "main.h"
+
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Description: a program that prints _putchar
+ *
+ * Return: int should return an int
  */
 int main(void)
-  
 {
-  char *c = "_putchar";
-
-  while (*c)
-    {
-      _putchar(*c);
-      c++;
-    }
+  _putchar('_');
+  _putchar('p');
+  _putchar('u');
+  _putchar('t');
+  _putchar('c');
+  _putchar('h');
+  _putchar('a');
+  _putchar('r');
   _putchar('\n');
 
   return (0);
+
 }

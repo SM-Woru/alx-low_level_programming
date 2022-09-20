@@ -12,7 +12,11 @@
 
 int main()
 {
+  int m;
   int *n;
+
+  m = 402;
+  n = &m;
   
   void reset_to_98(int *n);
   *n = 98;

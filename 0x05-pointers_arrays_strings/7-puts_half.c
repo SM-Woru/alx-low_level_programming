@@ -1,8 +1,8 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * puts_half - prints every other character of a string
+ *
  * @str: A pointer to an int that will be changed
  *
  * Return: void which means out answer is correct
@@ -20,7 +20,7 @@ void puts_half(char *str)
 
   for (i = last; str[i]; i++)
     {
-      putchar (str[i]);
+      _putchar(str[i]);
     }
-  putchar ('\n');
+  _putchar('\n');
 }
